@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(198, 209, 216);
+    padding: 0;
+    background-image: url("https://wallup.net/wp-content/uploads/2016/01/136027-simple_background-robot-digital_art-artificial_intelligence-technology-Hi-Tech.jpg");
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-weight: 200;
+    font-style: bold;
+  }
+  
+  #about1 {
+    text-align: center;
+    padding: 1px 0;
+  }
+  #about {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #about img {
+    width: 90px;
+    border-radius: 30%;
+  }
+  
+  #skills {
+    text-align: left;
+    padding: 10px 0;
+  }
+  
+  #skills ul {
+    list-style: none;
+  }
+  
+  #projects {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  #resume,
+  #contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #resume a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    
+  }
+  #resume a{
+
+    animation: mymove 1s infinite
+  }
+  @keyframes mymove {
+    from {background-color: yellowgreen;}
+    to {background-color: white;}
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+
+  footer{
+    width:100%;
+    overflow:hidden;
+  
+    
+  }
+  
+  
+  h2{
+          color: green;  
+  }
+
+  P
+  {
+    color: black;
+    font-size: larger;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h4{
+    text-align: center;
+    width: 300px;
+    width: 30%;
+    border: 5px solid green;
+    padding: 50px;
+    margin: auto;
+    font-style: normal; }
+
+p{
+  width:100%;
+  overflow:hidden;  
+}
+p {
+  animation: slide-left 5s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+  
+
+
+
